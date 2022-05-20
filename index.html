@@ -5,11 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/5d91d531f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Tinos&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:wght@400;700&family=Tinos&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	<title>Наш ресторан</title>
 </head>
@@ -62,7 +62,7 @@
 				<div class="cards-content__item">
 					<img src="img/story-01.png" alt="">
 					<h4 class="cards-content__title">Лучшее качество Еды</h4>
-					<p class="cards-content__subtitle">Качество нашей Еды - отменное!</p>
+					<p class="cards-content__subtitle">Качество нашей <br> Еды - отменное!</p>
 				</div>
 
 				<div class="cards-content__item">
@@ -191,5 +191,110 @@
 			</div>
 		</div>
 	</section>
+
+	<section class="reviews">
+			<div class="container">
+				<!-- Slider main container -->
+				<div class="swiper">
+				  <!-- Additional required wrapper -->
+				  <div class="swiper-wrapper">
+				    <!-- Slides -->
+				    <div class="swiper-slide">
+				    	<p class="swiper__text">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!</p>
+				    	<img src="img/avatar.jpg" alt="" class="reviews__img">
+				    	<h4 class="swiper__role">Посетитель</h4>
+				    	<div class="swiper__user-name">Николай</div>
+				    </div>
+				    <div class="swiper-slide">
+				    	<p class="swiper__text">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!</p>
+				    	<img src="img/avatar.jpg" alt="" class="reviews__img">
+				    	<h4 class="swiper__role">Посетитель</h4>
+				    	<div class="swiper__user-name">Николай</div>
+				    </div>
+				    <div class="swiper-slide">
+				    	<p class="swiper__text">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!</p>
+				    	<img src="img/avatar.jpg" alt="" class="reviews__img">
+				    	<h4 class="swiper__role">Посетитель</h4>
+				    	<div class="swiper__user-name">Николай</div>
+				    </div>
+				  </div>
+				  <!-- If we need pagination -->
+				  <div class="swiper-pagination"></div>
+				</div>
+			</div>
+	</section>
+
+	<section class="dish-gallery">
+		<div class="container">
+			<h2 class="dish-gallery__title">Галерея <span class="title--orange">Блюд</span></h2>
+
+			<div class="gallery__content">
+				<div class="gallery__container">
+					<div>
+						<img class="galley__img" src="img\gallery\1.jpg" alt="First dish">
+						<div class="image__box">
+							<img class="galley__img" src="img\gallery\2.jpg" alt="First dish">
+							<img class="galley__img" src="img\gallery\3.jpg" alt="First dish">
+						</div>
+					</div>
+
+					<div>
+						<div class="image__box">
+							<img class="galley__img" src="img\gallery\2.jpg" alt="First dish">
+							<img class="galley__img" src="img\gallery\3.jpg" alt="First dish">
+						</div>
+						<img class="galley__img" src="img\gallery\1.jpg" alt="First dish">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="our-cooks">
+		<div class="container">
+			<h2 class="dish-gallery__title">Наши <span class="title--orange">Повара</span></h2>
+
+			<!-- Slider main container -->
+				<div class="swiper swiper-gallery">
+				  <!-- Additional required wrapper -->
+				  <div class="swiper-wrapper">
+				    <!-- Slides -->
+				    <div class="swiper-slide">
+				    	<div class="image__box">
+							<img class="galley__img" src="img\cooks\1.jpg" alt="First dish">
+							<img class="galley__img" src="img\cooks\2.jpg" alt="First dish">
+							<img class="galley__img" src="img\cooks\3.jpg" alt="First dish">
+						</div>
+				    </div>
+				    <div class="swiper-slide">
+				    	<div class="image__box">
+							<img class="galley__img" src="img\cooks\1.jpg" alt="First dish">
+							<img class="galley__img" src="img\cooks\2.jpg" alt="First dish">
+							<img class="galley__img" src="img\cooks\3.jpg" alt="First dish">
+						</div>
+					</div>
+				  </div>
+				  <!-- If we need pagination -->
+				  <div class="swiper-pagination"></div>
+				</div>			
+		</div>	
+	</section>
+
+	<footer class="footer">
+		
+	</footer>
+
+	<script>
+		const swiper = new Swiper('.swiper', {
+		  // Optional parameters
+		  direction: 'horizontal',
+		  loop: true,
+
+		  // If we need pagination
+		  pagination: {
+		    el: '.swiper-pagination',
+		  },
+		});
+	</script>
 </body>
 </html>

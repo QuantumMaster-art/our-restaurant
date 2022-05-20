@@ -50,7 +50,8 @@ body {
 .best__title,
 .dishes,
 .menu__title,
-.card__title {
+.card__title,
+.dish-gallery__title {
 	font-family: 'Tinos', serif;
 }
 
@@ -452,6 +453,7 @@ body {
 	line-height: 21.8px;
 	border: 1px solid transparent;
 	transition: border ease .5s, background-color .5s, color .5s;
+	text-transform: uppercase;
 }
 
 .btn--card:hover {
@@ -484,4 +486,89 @@ body {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
+	font-family: 'Cookie', cursive;
+}
+
+.reviews {
+	background-color: #E5E5E5;
+	padding: 105px 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+.swiper {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  min-height: 350px;
+}
+
+.swiper-slide {
+	text-align: center;
+}
+
+.swiper__text {
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.reviews__img {
+	border-radius: 50%;
+	margin-bottom: 17px;
+}
+
+.swiper__role, 
+.swiper__user-name {
+	line-height: 27.3px;
+}
+
+.swiper__role {
+	margin-bottom: 9px;
+	font-weight: 600;
+}
+
+.swiper-pagination-bullet-active[aria-current="true"] {
+	background: transparent;
+	border: 2px solid #FF7400;
+}
+
+
+.dish-gallery {
+	padding: 100px 0;
+}
+
+.dish-gallery__title {
+	text-align: center;
+	font-size: 54px;
+	line-height: 62.1px;
+	margin-bottom: 60px;
+}
+
+.gallery__container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.galley__img {
+	margin-bottom: 27px;
+}
+
+.image__box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.our-cooks {
+	padding-bottom: 40px;
+}
+
+.swiper-gallery {
+	max-width: 100%;
+}
+
+.footer {
+	min-height: 732px;
+	background-image: url(img/footer-bg.jpg);
 }
