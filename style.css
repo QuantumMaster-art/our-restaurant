@@ -612,11 +612,41 @@ body {
 
 /* Medium devices (desktops, 992px and down) */
 @media screen and (max-width: 992px) { 
-	
+	.header__text {
+		max-width: none;
+	}	
+
+	.cards-content,
+	.history__content,
+	.dishes__inner,
+	.menu__inner,
+	.gallery__container,
+	.image__box {
+		justify-content: center;
+	}
+
+	.cards-content__item:first-child,
+	.menu__card:first-child,
+	.galley__img--cooks:first-child {
+		margin-right: 20px;
+	}
+
+	.image__box {
+		justify-content: space-between;
+	}
+
+	.cards-content__item:last-child,
+	.menu__card:last-child {
+		margin-top: 20px;
+	}
 }
 
 /* Small devices (tablets, 768px and down) */
 @media screen and (max-width: 768px) {
+	.cards-content__item:first-child, .menu__card:first-child, .galley__img--cooks:first-child {
+	  margin-right: 0;
+	}
+
 	.container--off-padding {
 		padding: 0;
 	}
